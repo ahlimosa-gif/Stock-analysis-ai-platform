@@ -1,6 +1,6 @@
 # Stock Analysis AI Platform
 
-Stock Analysis AI Platform is a multipage Streamlit app for technical stock charting, next-day forecast experiments, and historical backtest validation. Streamlit supports multipage apps through a main script plus a `pages/` directory, and Community Cloud deployment expects a valid main file path together with organized dependencies.[cite:102][cite:269][cite:275]
+Stock Analysis AI Platform is a multipage Streamlit app for technical stock charting, next-day forecast experiments, and historical backtest validation. Streamlit supports multipage apps through a main script plus a `pages/` directory, and Community Cloud deployment expects a valid main file path together with organized dependencies.
 
 ## Features
 
@@ -32,7 +32,7 @@ stock-analysis-ai-platform/
     └── data_loader.py
 ```
 
-A good README should explain what the project does, how to install it, how to run it, and how the repository is organized so that someone new can get started quickly.[cite:273][cite:276][cite:280]
+A good README should explain what the project does, how to install it, how to run it, and how the repository is organized so that someone new can get started quickly.
 
 ## Requirements
 
@@ -40,7 +40,7 @@ A good README should explain what the project does, how to install it, how to ru
 - Git
 - Internet connection for package installation and market data download
 
-For Python projects, it is standard to install in an isolated virtual environment and keep temporary or machine-specific files out of version control with `.gitignore`.[cite:271][cite:277]
+For Python projects, it is standard to install in an isolated virtual environment and keep temporary or machine-specific files out of version control with `.gitignore`.
 
 ## Installation
 
@@ -67,7 +67,7 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-A Python `.gitignore` typically excludes virtual environments, `__pycache__`, and compiled files because these are local artifacts rather than source code.[cite:271][cite:274]
+A Python `.gitignore` typically excludes virtual environments, `__pycache__`, and compiled files because these are local artifacts rather than source code.
 
 ### 3. Install dependencies
 
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Streamlit apps are launched with `streamlit run <main-file>`, and for multipage apps the main file sits alongside the `pages/` directory.[cite:102][cite:269]
+Streamlit apps are launched with `streamlit run <main-file>`, and for multipage apps the main file sits alongside the `pages/` directory.
 
 ### 5. Open the local URL
 
@@ -127,7 +127,7 @@ git remote add origin <YOUR_GITHUB_REPO_URL>
 git push -u origin main
 ```
 
-GitHub's repository quickstart and repository-creation guides describe this general flow for creating a repository and pushing the first commit.[cite:268][cite:270]
+GitHub's repository quickstart and repository-creation guides describe this general flow for creating a repository and pushing the first commit.
 
 ## Streamlit deployment
 
@@ -139,7 +139,7 @@ To deploy on Streamlit Community Cloud:
 4. Set the main file path to `app.py`.
 5. Deploy.
 
-Community Cloud deployment depends on correct file organization, dependency declaration, and a valid main file path.[cite:257][cite:269][cite:275]
+Community Cloud deployment depends on correct file organization, dependency declaration, and a valid main file path.
 
 ## Troubleshooting
 
@@ -150,7 +150,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 - If `python3` is unavailable, try `python`.
-- If deployment cannot find the app, verify that `app.py` is in the repository root and `pages/` is beside it, not nested incorrectly.[cite:272][cite:282]
+- If deployment cannot find the app, verify that `app.py` is in the repository root and `pages/` is beside it, not nested incorrectly.
 
 ## Disclaimer
 
